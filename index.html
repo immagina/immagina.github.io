@@ -1,67 +1,347 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Immagina - An extensible platform for utility metering and remote property management</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+          rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <title>Immagina.GitHub.io by immagina</title>
-  </head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+</head>
 
-        <header>
-          <h1>Immagina.GitHub.io</h1>
-          <h2></h2>
-        </header>
-        <hr>
+<body>
 
-        <section id="main_content">
-          <h3>
-<a id="problem" class="anchor" href="#problem" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Problem.</h3>
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#top" onclick=$("#menu-close").click();>Introduction</a>
+        </li>
+        <li>
+            <a href="#top" onclick=$("#menu-close").click();>Home</a>
+        </li>
+        <li>
+            <a href="#about" onclick=$("#menu-close").click();>About</a>
+        </li>
+        <li>
+            <a href="#solution" onclick=$("#menu-close").click();>Our Solution</a>
+        </li>
+        <li>
+            <a href="#howitworks" onclick=$("#menu-close").click();>How it Works</a>
+        </li>
+        <li>
+            <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+        </li>
+    </ul>
+</nav>
 
-<p>Most of us own some sort of property. It came be a simple house to a larger apartment or a office/factory complex. Other than what’s mentioned monthly bill, do you have an idea of what your utility usage is? And how live is that data?
-
-How many of you dream of watering your plants or controlling or status checking  devices at properties  remotely?</p>
-
-<h3>
-<a id="solution" class="anchor" href="#solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Solution</h3>
-
-<p>As we understood it is not because of the technology gaps. Smart utility metering with remote management capabilities are already out there. But making it more intelligent is the challenge. Our solution is to provide an extensible platform which could intelligently empower your needs in remote property management by combining the power of smart utility metering and managing your appliances more effectively while saving your money and time.</p>
-
-<p>
-  For example by analysing utility metering and usage patterns of heated water using electricity, you can now decide if going for solar panels is a worthy investment. Or decide how your factory work shifts should be created to optimise usage vs bill payments.
-</p>
-
-<p>Your plantation will never look the same.
-If you need to water your plants with a schedule but also considering the weather conditions and the water pressure level from your domestic water supplier, then our solution will be the best for you. We are connecting with your utility meter for the water supply and will intelligently understand what is the pressure variation, then understanding the weather conditions we will make the decision to water your plants.</p>
-<h3>
-<a id="benefits" class="anchor" href="#benefits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Benefits</h3>
-
-<ul>
-  
-<li>A comprehensive dashboard view of your property</li>
-<li>Insight into how your can optimally use your utilities</li>
-<li>Ability to schedule how devices should operate</li>
-<li>Savings by optimising your utility usage</li>
-<li>Complete remote control of your property  </li>
-<li>it’s an extensible platform, types of devices you can connect or systems to which it can integrate are endless.</li>
-</ul>
-      </section>
-
-        <footer>
-          Copyrights Immagina. All rights reserved.
-        </footer>
-
-        
-      </div>
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Immagina</h1>
+        <h3>Utility metering and property mgt at your finger tips</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
     </div>
-  </body>
+</header>
+
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>An extensible platform for smart metering and remote property management!</h2>
+                <p class="lead">Most of us own some sort of property. It came be a simple house to a larger apartment or
+                                a office/factory complex. Other than what’s mentioned monthly bill, do you have an idea
+                                of what your utility usage is? And how live is that data?<br />
+                                How many of you dream of watering your plants or controlling or status checking devices
+                                at properties remotely?</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="solution" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Our Solution</h2>
+                <hr class="small">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-dashboard fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Dashboard</strong>
+                            </h4>
+                            <p>A comprehensive dashboard view of your property.</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-lightbulb-o fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Intelligence</strong>
+                            </h4>
+                            <p>Insight into how your can optimally use your utilities.</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gears fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Scheduling & Remote Mgt</strong>
+                            </h4>
+                            <p>Schedule when your devices operate and remotely monitor them</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-expand fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Extensible Platform</strong>
+                            </h4>
+                            <p>Types of devices you can connect or systems to which it can integrate are endless..</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Callout -->
+<aside class="callout">
+    <div class="text-vertical-center">
+        <h1>Find this Interesting?</h1>
+    </div>
+</aside>
+
+<!-- Portfolio -->
+<section id="howitworks" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h2>See How it Works</h2>
+                <hr class="small">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portfolio-item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/S-EF-nE1b4Y"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+                <!--<a href="#" class="btn btn-dark">View More Items</a>-->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Call to Action -->
+<aside class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Our Team</h1>
+                <a href="http://bit.ly/sumedha"><img src="./img/team/sumedha.jpg"
+                                class="img-circle img-rounded img-responsive img-thumbnail img-portfolio" width="175"
+                                height="175" /></a>
+                <a href="http://charitha.org"><img
+                        src="./img/team/charitha.png"
+                        class="img-circle img-rounded img-responsive img-thumbnail img-portfolio" width="175"
+                        height="175" /></a>
+                <a href="http://tiriboy.blogspot.com"><img src="./img/team/rasika.png" class="img-circle img-rounded img-responsive img-thumbnail"
+                                width="175" height="175" /></a>
+                <a href="https://www.linkedin.com/in/ayyoobhamza"><img
+                        src="./img/team/ayyoob.png"
+                        class="img-circle img-rounded img-thumbnail" width="175" height="175" /></a>
+                <h3>Meet the Immagina Team.</h3>
+                <a href="mailto:sumedha.r@gmail.com?subject=Requesting More Information on Immagina Project" class="btn btn-lg btn-light">Send a Message</a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<!-- Map -->
+<section id="contact" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Colombo&amp;aq=0&amp;oq=colombo&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Colombo&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Sri,+Lanka&amp;aq=0&amp;oq=twitter&amp;sll=6.9217131,79.7862613&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Sri,+Lanka&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+    </small>
+    </iframe>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4><strong>Immagina</strong>
+                </h4>
+                <p>
+                    <br>Sri Lanka</p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> 077 3017 743</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a
+                            href="mailto:sumedha.r@gmail.com">sumedha.r@gmail.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; Immagina 2016</p>
+            </div>
+        </div>
+    </div>
+    <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function (e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function () {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname
+                                                                                            == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                                               scrollTop: target.offset().top
+                                           }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function () {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function () {
+                    $('#to-top').css({
+                                         position: 'fixed',
+                                         display: 'block'
+                                     });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function () {
+                    $('#to-top').css({
+                                         display: 'none'
+                                     });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function (event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function (event) {
+        var that = $(this);
+        // Disable the click handler until the user leaves the map area
+        that.off('click', onMapClickHandler);
+        // Enable scrolling zoom
+        that.find('iframe').css("pointer-events", "auto");
+        // Handle the mouse leave event
+        that.on('mouseleave', onMapMouseleaveHandler);
+    }
+    // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+</script>
+
+</body>
+
 </html>
